@@ -1,0 +1,202 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Smythe', cursive;
+    width: 600px;
+} 
+
+.relative {
+    /* position: relative; */
+}
+
+.flex {
+    display: flex;
+}
+
+.form-btn {
+   padding: 20px 0px;
+    margin: 50px 0 0 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 4px 
+}
+
+.restaurant-header {
+    margin: 0;
+    background-image: url("images/burger-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -153px;
+    width: 100%;
+    height: 175px;
+}
+
+
+.header-text {
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.restaurant-name {
+    font-size: 39px;
+}
+
+.tagline {
+    font-size: 23px;
+}
+
+.menu {
+    /* margin: 50px; */
+}
+
+.menu-item {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+.item {
+   /* align-items: center; */
+}
+
+.item-img {
+    font-size: 80px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+.item-details {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-name {
+    font-size: 28px;
+    margin: 0;
+}
+
+.item-description {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.item-price {
+    font-size: 20px;
+}
+
+.add-btn {
+    border: 1.5px solid #D2D2D2;
+    border-radius: 100%;
+    padding: 20px
+}
+
+.checkout {
+    display: none;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+.checkout-title {
+    font-size: 28px;
+    /* margin: 0; */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.checkout-cart {
+    border-bottom: 2px solid #000000;
+}
+
+.checkout-details {
+    justify-content: space-between;
+    align-items: center;   
+    margin-bottom: 20px;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    font-size: 12px;
+    /* line-height: 24px; */
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.checkout-item {
+    align-items: center;
+}
+
+.order-total {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.comp-order-btn {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 100%; 
+}
+
+.payment-modal {
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 524px;
+    height: 542px;
+    background: #FFFFFF;
+    padding: 10px;
+    box-shadow: 5.186544418334961px 5.186544418334961px 255.43731689453125px 0px #00000080;
+
+}
+
+.modal-inner {
+    
+    width: 476px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    padding: 10px;
+}
+
+
+.modal-title {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    padding: 0 15px;
+    font-size: 20px;
+    line-height: 31px;
+    height: 71px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #757575;
+    border-radius: 4px;
+}
+
+.pay-btn {
+    width: 107%;
+    
+}
+
+.order-complete {
+    background: #ECFDF5;
+    color: #065F46;
+    text-align: center;
+    font-size: 32px;
+    margin: 50px;
+    padding: 50px;
+}
