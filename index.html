@@ -1,59 +1,65 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-       <link rel="stylesheet" href="index.css">
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        
-            <header>
-                <div class="restaurant-header flex">
-                    <div class="header-text flex">
-                        <span class="restaurant-name">Mike's Diner</span>
-                        <span class ="tagline">The best burgers and pizzas in town</span>
-                    </div>
-                </div>
-            </header>
-            <main class="menu" id="menu">
-                 
-            </main>
-            
-            <section id="container">
-                <div class="checkout" id="checkout">
-                    <div class="checkout-title">
-                        <span>Your order</span>
-                    </div>
-                    <div class="checkout-cart" id="checkout-cart">
-                        
-                    </div>
-                    <div class="order-total flex">
-                        <span class="item-name">Total price:</span>
-                        <span class="item-price" id="total-price"></span>
-                    </div>
-                    <button class="form-btn comp-order-btn" id="comp-order-btn">Complete order</button>
-                </div>
-            </section>
-            
-            <div class="payment-modal" id="payment-modal">
-                <div class="modal-inner">
-                    <div class="modal-title">
-                        <h3>Enter card details</h3>
-                    </div>
-                        <form id="pay-form">
-                            <input type="text" id="userName" name="userName" placeholder="Enter your name" required>
-                            <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" required>
-                            <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
-                            
-                            <button type="submit" class="form-btn pay-btn" id="pay-btn">Pay</button>
-                        </form>
-                </div>
-            </div>
-            
-        
-            
-	<script src="index.js" type="module"></script>
-    </body>
-</html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<title>NFT Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
 
+<body>
+	<header>
+		<div class="container">
+			<h1>
+				Wildly Expensive JPEGs
+				<span class="subheading">(Also known as NFTs)</span>
+			</h1>
+			
+			<!-- Site Navigation -->
+			<nav>
+				<ul>
+					<li><a href="#">Buy</a></li>
+					<li><a href="#">Resources</a></li>
+					<li><a href="#">Explore</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section>
+			<div class="container">
+				<h2>Meta-Pigeon Sneaker NFT: $33,000</h2>
+				<img  src="images/sneakers-purple.png" alt="Purple and silver sneakers" class="main-image">
+				<h3>At $33k, this NFT sneaker is super good value!</h3>
+				<p>If you've got lots of money and you're a bit silly, NFTs are a great way to pay for something that doesn't have any intrinsic value or even exist. Tech fashionistas are jumping on the NFT bandwagon and spending eye-watering sums of money on crypto images. Our advice: spend the weekend <a href="#">crafting an NFT</a>, and by this time next week, you'll be a millionaire.</p>
+				<a href="#" class="btn btn-dark">Buy NFTs</a>
+				<a href="#" class="btn btn-mid">More info</a>
+			</div>
+		</section>
+			
+		<section class="section-two">
+			<div class="container">
+				<h2>For the true Crypto-connoisseur</h2>
+				<div class="section-two-image-container">
+					<div class="feature-item">
+						<img src="images/crypto-punk.jpg" alt="punk with blach hair and red and blue glasses" class="feature-image">
+						<p>Is $33k for sneakers too basic? No problem! This CryptoPunk is a steal at $6.6 million, making Bag #748 (right) a total bargain.</p>
+					</div>
+					<div class="feature-item">
+						<img src="images/bag.svg" alt="Seven items from a game listed in white on a black background" class="feature-image">
+						<p>That's not a screenshot. Those eight lines of white text on a black background is the actual NFT we're selling for $1.4 million.</p>
+					</div>			
+				</div>
+				<a href="#" class="btn btn-light">About Us</a>
+				<a href="#" class="btn btn-mid">Contact</a>
+				<p>Still not convinced? To be honest, nor are we. That's why we're selling them, not buying them.</p>
+			</div>
+		</section>
+			
+		<footer>
+			<p>&copy; 2022 FoolsGold.com</p>
+		</footer>
+	</main>
+</body>
+</html>
